@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="html css webpage">
+    <meta name="keywords" content="HTML,CSS">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <title>THE CODE REVIEW</title>
+</head>
+
+<body>
+    <div class="full_container">
+        <div class="top_title">
+            <h1>THE CODE REVIEW</h1>
+        </div>
+        <div class="main_container">
+            <br>
+            <h1 class="top_header">Signup for our newsletter</h1>
+            <p class="top_subheader">Get the latest news on how your code is doing right in your inbox</p>
+            <br>
+            <br>
+            <span class="header_line"></span>
+
+            <form action="#" method="post" id="sign_up_form">
+                <div class="contact_info">
+                    <h2>Contact Information</h2>
+                    <span>Full Name</span>
+                    <input type="text" name="full_name" placeholder="Required" required>
+                </div>
+                <div class="contact_info">
+
+                    <span>Email Address</span>
+                    <input type="email" name="email_address" placeholder="Required" required>
+                </div>
+                <div class="contact_info">
+
+                    <span>Phone Number</span>
+                    <input type="text" name="phone_number">
+                </div>
+                <div class="contact_info">
+
+                    <span>Street Address</span>
+                    <input type="text" name="street_address">
+                </div>
+                <div class="contact_info">
+                    <span>City</span>
+                    <input type="text" name="city">
+                </div>
+                <div class="contact_info">
+                    <span>State</span>
+                    <select name="state">
+                        <option value="">Choose State</option>
+                        <option value="Sylhet">Sylhet</option>
+                        <option value="Dhaka">Dhaka</option>
+                        <option value="Chittagang">Chittagang</option>
+                    </select>
+                </div>
+                <div class="contact_info">
+                    <span>Zip Code</span>
+                    <input type="text" name="zip_code">
+                </div>
+                <hr>
+                <div class="newsletter">
+                    <h2>Newsletter</h2>
+                    <h3>Select the newsletters you would like to recieve</h3>
+
+                    <input type="checkbox" id="newsletter_HTML" name="newsletter_HTML" value="HTML News">
+                    <label for="newsletter_HTML">HTML News</label>
+
+                    <input type="checkbox" id="newsletter_CSS" name="newsletter_CSS" value="CSS News">
+                    <label for="newsletter_CSS">CSS News</label>
+
+                    <input type="checkbox" id="newsletter_Javascript" name="newsletter_Javascript" value="Javascript News">
+                    <label for="newsletter_Javascript">Javascript News</label>
+                    <h3>Newsletter format</h3>
+
+                    <label class="redio_container">HTML
+                        <input type="radio" name="news_format" value="HTML">
+                        <span class="circle"></span>
+                    </label><br>
+                    <label class="redio_container">Plain text
+                        <input type="radio" name="news_format" value="Plain text">
+                        <span class="circle"></span>
+                    </label>
+
+
+                    <h3>Others topics you'd like to hear about</h3>
+                    <textarea name="others_details" id="" cols="60" rows="8"></textarea>
+
+                    <a type="submit" class="sign_up_btn" name="sign_up" href="#">Sign Up</a>
+
+                </div>
+            </form>
+            <p class="copyright">
+                Copyright The Code Review
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
