@@ -300,7 +300,14 @@ font-weight: normal;
 	
 color: #4f738e;
 }
-
+fieldset{
+    border: none;
+}
+legend{
+    font-size: 20px;
+    color: #344a5a;
+    padding-top: 44px;
+}
 @media only screen and (min-width: 768px) {
 
 	.main_container {
@@ -347,6 +354,7 @@ border: none;
 
 border-radius: 3px;
 }
+	.contact_info input:focus {background: #eae0ea;}
 
 	.contact_info select {
 
@@ -371,6 +379,10 @@ border-radius: 3px;
 color: #8a8989;
 }
 
+	.contact_info select:focus {
+		background: #eae0ea;
+	}
+	
 	.newsletter textarea {
 		width: 98%;
 		background: #e8f2f5;
@@ -379,10 +391,15 @@ color: #8a8989;
 		padding: 10px;
 		border-radius: 3px;
 	}
+	.newsletter textarea:focus {
+		background: #eae0ea;
+	}
 	
 .zip_input input {
 	width: 25%;
 	float: left;
 	margin-left: 3%;
 }
+fieldset{}
+legend{}
 }

@@ -26,8 +26,10 @@
             <span class="header_line"></span>
 
             <form action="index.html" method="post" id="sign_up_form">
+			
+              <fieldset>
+                    <legend>Contact Information</legend>
                 <div class="contact_info">
-                    <h2>Contact Information</h2>
                     <label for="full_name" >Full Name</label>
                     <input type="text" id="full_name" name="full_name" placeholder="Required" required>
                 </div>
@@ -63,12 +65,12 @@
                     <label for="zip_code">Zip Code</label>
                     <input class="" type="text" name="zip_code" id="zip_code">
                 </div>
+                </fieldset>
                 
-                <hr>
-                <legend></legend>
+                <fieldset>
+                <legend>Newsletter</legend>
                 
                 <div class="newsletter">
-                    <h2>Newsletter</h2>
                     <h3>Select the newsletters you would like to recieve</h3>
 
                     <input type="checkbox" id="newsletter_HTML" name="newsletter_HTML" value="HTML News">
@@ -83,19 +85,20 @@
 
                     <label class="redio_container" for="news_format_HTML">HTML
                         <input type="radio" name="news_format" id="news_format_HTML" value="HTML">
-                        <label class="circle"></label>
+                        <div class="circle"></div>
                     </label><br>
                     <label class="redio_container" for="plain_text">Plain text
                         <input type="radio" name="news_format" id="plain_text" value="Plain text">
-                        <label class="circle"></label>
+                        <div class="circle"></div>
                     </label>
 
 <br>
                     <label for="others_details" class="textarea_lavel">Others topics you'd like to hear about</label>
                     <textarea name="others_details" id="others_details" cols="60" rows="8"></textarea>
-<button type="submit" class="sign_up_btn" name="sign_up">Sign Up</button>
 
                 </div>
+                </fieldset>
+<button type="submit" class="sign_up_btn" name="sign_up">Sign Up</button>
             </form>
             <p class="copyright">
                 Copyright The Code Review
